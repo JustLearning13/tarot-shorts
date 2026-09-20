@@ -1,0 +1,7 @@
+venv/
+.env
+output/
+deleted/
+__pycache__/
+*.pyc
+assets/music/

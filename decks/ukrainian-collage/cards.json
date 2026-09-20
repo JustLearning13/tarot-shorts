@@ -1,0 +1,782 @@
+[
+  {
+    "id": "major-0",
+    "name": "The Fool",
+    "arcana": "major",
+    "number": 0,
+    "upright_meaning": "New beginnings, spontaneity, a leap of faith",
+    "reversed_meaning": "Recklessness, hesitation, poor judgment",
+    "scene": "a young woman mid-stride at the edge of a cliff, one leg lifted playfully, small dog at her feet, carefree joyful expression looking upward",
+    "image_file": "fool.png"
+  },
+  {
+    "id": "major-1",
+    "name": "The Magician",
+    "arcana": "major",
+    "number": 1,
+    "upright_meaning": "Willpower, manifestation, resourcefulness",
+    "reversed_meaning": "Manipulation, untapped talent, poor planning",
+    "scene": "a confident woman standing with one hand raised toward the sky and one pointed to the ground, a table before her with symbolic tools, focused determined gaze",
+    "image_file": "magician.png"
+  },
+  {
+    "id": "major-2",
+    "name": "The High Priestess",
+    "arcana": "major",
+    "number": 2,
+    "upright_meaning": "Intuition, mystery, inner knowing",
+    "reversed_meaning": "Secrets, disconnection from intuition",
+    "scene": "a serene woman seated between two pillars, holding a scroll, moonlit expression, veiled composure",
+    "image_file": "high-priestess.png"
+  },
+  {
+    "id": "major-3",
+    "name": "The Empress",
+    "arcana": "major",
+    "number": 3,
+    "upright_meaning": "Abundance, nurturing, fertility, nature",
+    "reversed_meaning": "Creative block, dependence, neglect",
+    "scene": "a regal woman seated on an outdoor throne surrounded by a wheat field, holding a sheaf of grain, crown of flowers, calm nurturing presence",
+    "image_file": "empress.png"
+  },
+  {
+    "id": "major-4",
+    "name": "The Emperor",
+    "arcana": "major",
+    "number": 4,
+    "upright_meaning": "Authority, structure, stability",
+    "reversed_meaning": "Domination, rigidity, loss of control",
+    "scene": "a commanding figure seated on a stone throne, arms crossed, fortress walls behind, unwavering authoritative gaze",
+    "image_file": "emperor.png"
+  },
+  {
+    "id": "major-5",
+    "name": "The Hierophant",
+    "arcana": "major",
+    "number": 5,
+    "upright_meaning": "Tradition, spiritual guidance, conformity",
+    "reversed_meaning": "Rebellion, unconventional paths",
+    "scene": "a wise elder figure with hands raised in blessing, two smaller figures kneeling before them, ornate ceremonial dress",
+    "image_file": "hierophant.png"
+  },
+  {
+    "id": "major-6",
+    "name": "The Lovers",
+    "arcana": "major",
+    "number": 6,
+    "upright_meaning": "Union, harmony, values alignment",
+    "reversed_meaning": "Disharmony, imbalance, misaligned values",
+    "scene": "a couple standing hand in hand beneath a blossoming tree, faces turned toward each other, tender expressions",
+    "image_file": "lovers.png"
+  },
+  {
+    "id": "major-7",
+    "name": "The Chariot",
+    "arcana": "major",
+    "number": 7,
+    "upright_meaning": "Willpower, determination, victory",
+    "reversed_meaning": "Lack of control, aggression, setbacks",
+    "scene": "a determined figure standing tall in a chariot-like stance, two contrasting forces pulling at either side, resolute expression",
+    "image_file": "chariot.png"
+  },
+  {
+    "id": "major-8",
+    "name": "Strength",
+    "arcana": "major",
+    "number": 8,
+    "upright_meaning": "Courage, patience, inner strength",
+    "reversed_meaning": "Self-doubt, weakness, insecurity",
+    "scene": "a gentle woman calmly closing the jaws of a lion with her bare hands, serene confident expression, soft strength",
+    "image_file": "strength.png"
+  },
+  {
+    "id": "major-9",
+    "name": "The Hermit",
+    "arcana": "major",
+    "number": 9,
+    "upright_meaning": "Introspection, solitude, inner guidance",
+    "reversed_meaning": "Isolation, loneliness, withdrawal",
+    "scene": "a solitary cloaked figure holding a lantern, walking a quiet path at dusk, contemplative expression",
+    "image_file": "hermit.png"
+  },
+  {
+    "id": "major-10",
+    "name": "Wheel of Fortune",
+    "arcana": "major",
+    "number": 10,
+    "upright_meaning": "Cycles, fate, turning points",
+    "reversed_meaning": "Bad luck, resistance to change",
+    "scene": "a woman at the center of a spinning wheel motif, arms outstretched, hair and fabric caught in motion, symbols orbiting around her",
+    "image_file": "wheel-of-fortune.png"
+  },
+  {
+    "id": "major-11",
+    "name": "Justice",
+    "arcana": "major",
+    "number": 11,
+    "upright_meaning": "Fairness, truth, cause and effect",
+    "reversed_meaning": "Unfairness, dishonesty, avoiding accountability",
+    "scene": "a poised figure holding a raised sword and a balanced scale, direct unflinching gaze, symmetrical stance",
+    "image_file": "justice.png"
+  },
+  {
+    "id": "major-12",
+    "name": "The Hanged Man",
+    "arcana": "major",
+    "number": 12,
+    "upright_meaning": "Surrender, new perspective, letting go",
+    "reversed_meaning": "Stalling, resistance, martyrdom",
+    "scene": "a figure suspended upside down from a wooden beam by one ankle, calm accepting expression, halo-like light around the head",
+    "image_file": "hanged-man.png"
+  },
+  {
+    "id": "major-13",
+    "name": "Death",
+    "arcana": "major",
+    "number": 13,
+    "upright_meaning": "Transformation, endings, transition",
+    "reversed_meaning": "Resistance to change, stagnation",
+    "scene": "a striking figure in dark elegant attire walking calmly through a field as old flowers wilt and new ones bloom behind them",
+    "image_file": "death.png"
+  },
+  {
+    "id": "major-14",
+    "name": "Temperance",
+    "arcana": "major",
+    "number": 14,
+    "upright_meaning": "Balance, moderation, patience",
+    "reversed_meaning": "Imbalance, excess, discord",
+    "scene": "a graceful figure pouring water between two vessels with one foot on land and one in a stream, tranquil balanced expression",
+    "image_file": "temperance.png"
+  },
+  {
+    "id": "major-15",
+    "name": "The Devil",
+    "arcana": "major",
+    "number": 15,
+    "upright_meaning": "Bondage, materialism, temptation",
+    "reversed_meaning": "Breaking free, releasing control, reclaiming power",
+    "scene": "a figure standing before loose chains draped casually rather than binding, sly knowing expression, dramatic shadows",
+    "image_file": "devil.png"
+  },
+  {
+    "id": "major-16",
+    "name": "The Tower",
+    "arcana": "major",
+    "number": 16,
+    "upright_meaning": "Sudden upheaval, revelation, awakening",
+    "reversed_meaning": "Avoiding disaster, delayed collapse",
+    "scene": "a figure caught mid-motion as if struck by lightning, dramatic wind-swept hair and fabric, fragments scattering around them",
+    "image_file": "tower.png"
+  },
+  {
+    "id": "major-17",
+    "name": "The Star",
+    "arcana": "major",
+    "number": 17,
+    "upright_meaning": "Hope, inspiration, renewal",
+    "reversed_meaning": "Despair, disconnection, lost faith",
+    "scene": "a woman kneeling beside a stream at night pouring water from two vessels, starlit sky above, peaceful hopeful expression",
+    "image_file": "star.png"
+  },
+  {
+    "id": "major-18",
+    "name": "The Moon",
+    "arcana": "major",
+    "number": 18,
+    "upright_meaning": "Illusion, intuition, subconscious",
+    "reversed_meaning": "Confusion, fear, misinterpretation",
+    "scene": "a figure walking a winding path at night beneath a large moon, uncertain shadows on either side, wary intuitive expression",
+    "image_file": "moon.png"
+  },
+  {
+    "id": "major-19",
+    "name": "The Sun",
+    "arcana": "major",
+    "number": 19,
+    "upright_meaning": "Joy, vitality, success",
+    "reversed_meaning": "Temporary setback, diminished joy",
+    "scene": "a joyful figure standing in bright sunlight in an open field of sunflowers, arms open wide, radiant genuine smile",
+    "image_file": "sun.png"
+  },
+  {
+    "id": "major-20",
+    "name": "Judgement",
+    "arcana": "major",
+    "number": 20,
+    "upright_meaning": "Reflection, reckoning, awakening",
+    "reversed_meaning": "Self-doubt, avoiding inner call",
+    "scene": "a figure standing with arms raised toward a bright light breaking through clouds, awakening liberated expression",
+    "image_file": "judgement.png"
+  },
+  {
+    "id": "major-21",
+    "name": "The World",
+    "arcana": "major",
+    "number": 21,
+    "upright_meaning": "Completion, wholeness, accomplishment",
+    "reversed_meaning": "Incompletion, delay, unfinished business",
+    "scene": "a triumphant figure standing within an encircling wreath, arms gracefully extended, four corners of landscape visible beyond, fulfilled expression",
+    "image_file": "world.png"
+  },
+  {
+    "id": "cups-1",
+    "name": "Ace of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "New potential, a fresh start",
+    "reversed_meaning": "Missed opportunity, delay",
+    "scene": "a hand emerging from a cloud holding an overflowing golden cup, five streams of water pouring from it, a dove descending toward it",
+    "image_file": "ace-of-cups.png"
+  },
+  {
+    "id": "cups-2",
+    "name": "Two of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Balance, partnership, choices",
+    "reversed_meaning": "Imbalance, tension, indecision",
+    "scene": "a couple facing each other exchanging ornate cups in a toast, a winged lion's head symbol hovering above them",
+    "image_file": "two-of-cups.png"
+  },
+  {
+    "id": "cups-3",
+    "name": "Three of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Growth, collaboration, early results",
+    "reversed_meaning": "Disruption, delay in progress",
+    "scene": "three women in a circle raising their cups together in celebration amid a harvest of fruit",
+    "image_file": "three-of-cups.png"
+  },
+  {
+    "id": "cups-4",
+    "name": "Four of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Stability, structure, pause",
+    "reversed_meaning": "Stagnation, insecurity",
+    "scene": "a figure seated beneath a tree, arms crossed, contemplating three cups on the ground while a hand from a cloud offers a fourth",
+    "image_file": "four-of-cups.png"
+  },
+  {
+    "id": "cups-5",
+    "name": "Five of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Conflict, loss, adjustment",
+    "reversed_meaning": "Recovery, moving on",
+    "scene": "a cloaked figure looking down in sorrow at three spilled cups, two upright cups standing unnoticed behind them",
+    "image_file": "five-of-cups.png"
+  },
+  {
+    "id": "cups-6",
+    "name": "Six of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Harmony, cooperation, nostalgia",
+    "reversed_meaning": "Imbalance, one-sidedness",
+    "scene": "two figures in an old garden exchanging a cup filled with flowers, nostalgic gentle mood",
+    "image_file": "six-of-cups.png"
+  },
+  {
+    "id": "cups-7",
+    "name": "Seven of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Reflection, assessment, patience",
+    "reversed_meaning": "Impatience, poor planning",
+    "scene": "a figure standing before a cloud filled with floating cups, each holding a different vision — jewels, a serpent, a castle, a wreath",
+    "image_file": "seven-of-cups.png"
+  },
+  {
+    "id": "cups-8",
+    "name": "Eight of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Movement, mastery, change",
+    "reversed_meaning": "Delay, avoidance, fear of change",
+    "scene": "a cloaked figure walking away at night from eight stacked cups, a pale moon overhead",
+    "image_file": "eight-of-cups.png"
+  },
+  {
+    "id": "cups-9",
+    "name": "Nine of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Fulfillment, resilience, near completion",
+    "reversed_meaning": "Overextension, anxiety",
+    "scene": "a satisfied figure seated with arms crossed before a curved row of nine cups on display",
+    "image_file": "nine-of-cups.png"
+  },
+  {
+    "id": "cups-10",
+    "name": "Ten of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Completion, culmination, legacy",
+    "reversed_meaning": "Burden, ending a cycle",
+    "scene": "a couple with arms raised beneath a rainbow of ten cups, joyful figures dancing nearby",
+    "image_file": "ten-of-cups.png"
+  },
+  {
+    "id": "cups-page",
+    "name": "Page of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Curiosity, new ideas, a message",
+    "reversed_meaning": "Immaturity, poor judgment",
+    "scene": "a young figure standing by the sea, gazing curiously into a cup from which a fish emerges",
+    "image_file": "page-of-cups.png"
+  },
+  {
+    "id": "cups-knight",
+    "name": "Knight of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Pursuit, momentum, focused energy",
+    "reversed_meaning": "Recklessness, imbalance",
+    "scene": "a knight on horseback slowly extending a cup forward, calm ceremonial posture",
+    "image_file": "knight-of-cups.png"
+  },
+  {
+    "id": "cups-queen",
+    "name": "Queen of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Mastery, nurturing wisdom",
+    "reversed_meaning": "Insecurity, misuse of power",
+    "scene": "a queen seated at the shore gazing into an ornate covered cup, dreamlike expression",
+    "image_file": "queen-of-cups.png"
+  },
+  {
+    "id": "cups-king",
+    "name": "King of Cups",
+    "arcana": "minor",
+    "suit": "Cups",
+    "upright_meaning": "Authority, mastery, leadership",
+    "reversed_meaning": "Rigidity, abuse of power",
+    "scene": "a king seated on a throne at sea, holding a cup and scepter steady despite turbulent water",
+    "image_file": "king-of-cups.png"
+  },
+  {
+    "id": "pentacles-1",
+    "name": "Ace of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "New potential, a fresh start",
+    "reversed_meaning": "Missed opportunity, delay",
+    "scene": "a hand emerging from a cloud holding a large gold pentacle coin above a flowering garden",
+    "image_file": "ace-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-2",
+    "name": "Two of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Balance, partnership, choices",
+    "reversed_meaning": "Imbalance, tension, indecision",
+    "scene": "a figure balancing two coins joined by an infinite loop ribbon, ships swaying on waves behind",
+    "image_file": "two-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-3",
+    "name": "Three of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Growth, collaboration, early results",
+    "reversed_meaning": "Disruption, delay in progress",
+    "scene": "a figure carving a pentacle into a cathedral archway while two others review the work",
+    "image_file": "three-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-4",
+    "name": "Four of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Stability, structure, pause",
+    "reversed_meaning": "Stagnation, insecurity",
+    "scene": "a figure clutching a coin to their chest, one coin balanced on the head, two beneath their feet, guarded stance",
+    "image_file": "four-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-5",
+    "name": "Five of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Conflict, loss, adjustment",
+    "reversed_meaning": "Recovery, moving on",
+    "scene": "two weary figures passing a lit stained-glass window in the snow, one on crutches",
+    "image_file": "five-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-6",
+    "name": "Six of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Harmony, cooperation, nostalgia",
+    "reversed_meaning": "Imbalance, one-sidedness",
+    "scene": "a merchant weighing coins on a scale, distributing them to a kneeling figure",
+    "image_file": "six-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-7",
+    "name": "Seven of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Reflection, assessment, patience",
+    "reversed_meaning": "Impatience, poor planning",
+    "scene": "a figure resting on a hoe, gazing thoughtfully at a bush laden with coins growing like fruit",
+    "image_file": "seven-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-8",
+    "name": "Eight of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Movement, mastery, change",
+    "reversed_meaning": "Delay, avoidance, fear of change",
+    "scene": "a craftsman diligently carving coins one by one, rows of finished pentacles beside them",
+    "image_file": "eight-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-9",
+    "name": "Nine of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Fulfillment, resilience, near completion",
+    "reversed_meaning": "Overextension, anxiety",
+    "scene": "an elegant figure standing in a vineyard garden, a bird on their gloved hand, coin motifs in the greenery",
+    "image_file": "nine-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-10",
+    "name": "Ten of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Completion, culmination, legacy",
+    "reversed_meaning": "Burden, ending a cycle",
+    "scene": "an elder figure with a dog at their feet, an archway framing a family scene, coins arranged overhead like a crest",
+    "image_file": "ten-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-page",
+    "name": "Page of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Curiosity, new ideas, a message",
+    "reversed_meaning": "Immaturity, poor judgment",
+    "scene": "a young figure standing in a green field, holding a coin up thoughtfully as if studying it",
+    "image_file": "page-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-knight",
+    "name": "Knight of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Pursuit, momentum, focused energy",
+    "reversed_meaning": "Recklessness, imbalance",
+    "scene": "a knight on a still, sturdy horse in a plowed field, coin held steady",
+    "image_file": "knight-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-queen",
+    "name": "Queen of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Mastery, nurturing wisdom",
+    "reversed_meaning": "Insecurity, misuse of power",
+    "scene": "a queen seated in a garden with a coin resting on her lap, a rabbit at her feet",
+    "image_file": "queen-of-pentacles.png"
+  },
+  {
+    "id": "pentacles-king",
+    "name": "King of Pentacles",
+    "arcana": "minor",
+    "suit": "Pentacles",
+    "upright_meaning": "Authority, mastery, leadership",
+    "reversed_meaning": "Rigidity, abuse of power",
+    "scene": "a king seated on a throne carved with grapevines, coin in hand, a castle behind",
+    "image_file": "king-of-pentacles.png"
+  },
+  {
+    "id": "swords-1",
+    "name": "Ace of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "New potential, a fresh start",
+    "reversed_meaning": "Missed opportunity, delay",
+    "scene": "a hand emerging from a cloud gripping an upright sword crowned with a laurel wreath",
+    "image_file": "ace-of-swords.png"
+  },
+  {
+    "id": "swords-2",
+    "name": "Two of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Balance, partnership, choices",
+    "reversed_meaning": "Imbalance, tension, indecision",
+    "scene": "a blindfolded figure seated by the sea, arms crossed holding two swords in balance, crescent moon above",
+    "image_file": "two-of-swords.png"
+  },
+  {
+    "id": "swords-3",
+    "name": "Three of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Growth, collaboration, early results",
+    "reversed_meaning": "Disruption, delay in progress",
+    "scene": "a heart pierced by three swords against a stormy grey sky",
+    "image_file": "three-of-swords.png"
+  },
+  {
+    "id": "swords-4",
+    "name": "Four of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Stability, structure, pause",
+    "reversed_meaning": "Stagnation, insecurity",
+    "scene": "a figure lying in effigy-like repose, three swords mounted on the wall above, one lying beneath",
+    "image_file": "four-of-swords.png"
+  },
+  {
+    "id": "swords-5",
+    "name": "Five of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Conflict, loss, adjustment",
+    "reversed_meaning": "Recovery, moving on",
+    "scene": "a figure smirking while gathering fallen swords, two defeated figures walking away in the distance",
+    "image_file": "five-of-swords.png"
+  },
+  {
+    "id": "swords-6",
+    "name": "Six of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Harmony, cooperation, nostalgia",
+    "reversed_meaning": "Imbalance, one-sidedness",
+    "scene": "a ferryman guiding a cloaked figure and child across calm water in a boat filled with upright swords",
+    "image_file": "six-of-swords.png"
+  },
+  {
+    "id": "swords-7",
+    "name": "Seven of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Reflection, assessment, patience",
+    "reversed_meaning": "Impatience, poor planning",
+    "scene": "a figure sneaking away from a camp carrying five swords, glancing back over their shoulder",
+    "image_file": "seven-of-swords.png"
+  },
+  {
+    "id": "swords-8",
+    "name": "Eight of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Movement, mastery, change",
+    "reversed_meaning": "Delay, avoidance, fear of change",
+    "scene": "a blindfolded figure loosely bound, surrounded by a fence of upright swords, murky water at their feet",
+    "image_file": "eight-of-swords.png"
+  },
+  {
+    "id": "swords-9",
+    "name": "Nine of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Fulfillment, resilience, near completion",
+    "reversed_meaning": "Overextension, anxiety",
+    "scene": "a figure sitting up in bed, head in hands, nine swords mounted on the wall behind in darkness",
+    "image_file": "nine-of-swords.png"
+  },
+  {
+    "id": "swords-10",
+    "name": "Ten of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Completion, culmination, legacy",
+    "reversed_meaning": "Burden, ending a cycle",
+    "scene": "a figure lying face down with ten swords along their back, dark sky giving way to a sliver of dawn light",
+    "image_file": "ten-of-swords.png"
+  },
+  {
+    "id": "swords-page",
+    "name": "Page of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Curiosity, new ideas, a message",
+    "reversed_meaning": "Immaturity, poor judgment",
+    "scene": "a young figure standing alert on a hilltop, sword raised, wind blowing through their hair",
+    "image_file": "page-of-swords.png"
+  },
+  {
+    "id": "swords-knight",
+    "name": "Knight of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Pursuit, momentum, focused energy",
+    "reversed_meaning": "Recklessness, imbalance",
+    "scene": "a knight charging forward on horseback, sword raised high, storm clouds behind",
+    "image_file": "knight-of-swords.png"
+  },
+  {
+    "id": "swords-queen",
+    "name": "Queen of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Mastery, nurturing wisdom",
+    "reversed_meaning": "Insecurity, misuse of power",
+    "scene": "a queen seated on a throne with a raised sword, stern clear-eyed expression, clouds behind",
+    "image_file": "queen-of-swords.png"
+  },
+  {
+    "id": "swords-king",
+    "name": "King of Swords",
+    "arcana": "minor",
+    "suit": "Swords",
+    "upright_meaning": "Authority, mastery, leadership",
+    "reversed_meaning": "Rigidity, abuse of power",
+    "scene": "a king seated upright on a throne holding a sword vertically, unwavering judgment in his gaze",
+    "image_file": "king-of-swords.png"
+  },
+  {
+    "id": "wands-1",
+    "name": "Ace of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "New potential, a fresh start",
+    "reversed_meaning": "Missed opportunity, delay",
+    "scene": "a hand emerging from a cloud holding a sprouting wooden wand, leaves budding from its tip",
+    "image_file": "ace-of-wands.png"
+  },
+  {
+    "id": "wands-2",
+    "name": "Two of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Balance, partnership, choices",
+    "reversed_meaning": "Imbalance, tension, indecision",
+    "scene": "a figure standing on a rampart holding a globe, gazing out over a distant landscape, a wand mounted nearby",
+    "image_file": "two-of-wands.png"
+  },
+  {
+    "id": "wands-3",
+    "name": "Three of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Growth, collaboration, early results",
+    "reversed_meaning": "Disruption, delay in progress",
+    "scene": "a figure standing at a cliff's edge watching ships sail out at sea, three wands planted firmly beside them",
+    "image_file": "three-of-wands.png"
+  },
+  {
+    "id": "wands-4",
+    "name": "Four of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Stability, structure, pause",
+    "reversed_meaning": "Stagnation, insecurity",
+    "scene": "a joyful celebration beneath a garland strung between four decorated wands, dancing figures in the distance",
+    "image_file": "four-of-wands.png"
+  },
+  {
+    "id": "wands-5",
+    "name": "Five of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Conflict, loss, adjustment",
+    "reversed_meaning": "Recovery, moving on",
+    "scene": "several figures each holding a wand, engaged in a playful mock struggle, crossed staffs",
+    "image_file": "five-of-wands.png"
+  },
+  {
+    "id": "wands-6",
+    "name": "Six of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Harmony, cooperation, nostalgia",
+    "reversed_meaning": "Imbalance, one-sidedness",
+    "scene": "a triumphant rider on horseback holding a laurel-crowned wand, a small crowd cheering behind",
+    "image_file": "six-of-wands.png"
+  },
+  {
+    "id": "wands-7",
+    "name": "Seven of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Reflection, assessment, patience",
+    "reversed_meaning": "Impatience, poor planning",
+    "scene": "a figure standing on a hill defending their position with a wand raised against several from below",
+    "image_file": "seven-of-wands.png"
+  },
+  {
+    "id": "wands-8",
+    "name": "Eight of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Movement, mastery, change",
+    "reversed_meaning": "Delay, avoidance, fear of change",
+    "scene": "wands flying swiftly through the sky over an open landscape, a strong sense of motion and speed",
+    "image_file": "eight-of-wands.png"
+  },
+  {
+    "id": "wands-9",
+    "name": "Nine of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Fulfillment, resilience, near completion",
+    "reversed_meaning": "Overextension, anxiety",
+    "scene": "a bandaged, watchful figure leaning on a wand, several more wands standing guard behind them",
+    "image_file": "nine-of-wands.png"
+  },
+  {
+    "id": "wands-10",
+    "name": "Ten of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Completion, culmination, legacy",
+    "reversed_meaning": "Burden, ending a cycle",
+    "scene": "a figure straining to carry a heavy bundle of wands toward a distant town",
+    "image_file": "ten-of-wands.png"
+  },
+  {
+    "id": "wands-page",
+    "name": "Page of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Curiosity, new ideas, a message",
+    "reversed_meaning": "Immaturity, poor judgment",
+    "scene": "a young figure standing in an open field, examining a wand with curious wonder",
+    "image_file": "page-of-wands.png"
+  },
+  {
+    "id": "wands-knight",
+    "name": "Knight of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Pursuit, momentum, focused energy",
+    "reversed_meaning": "Recklessness, imbalance",
+    "scene": "a knight on a rearing horse, wand raised, dressed for adventure, desert landscape behind",
+    "image_file": "knight-of-wands.png"
+  },
+  {
+    "id": "wands-queen",
+    "name": "Queen of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Mastery, nurturing wisdom",
+    "reversed_meaning": "Insecurity, misuse of power",
+    "scene": "a queen seated on a throne holding a wand and a sunflower, a black cat at her feet",
+    "image_file": "queen-of-wands.png"
+  },
+  {
+    "id": "wands-king",
+    "name": "King of Wands",
+    "arcana": "minor",
+    "suit": "Wands",
+    "upright_meaning": "Authority, mastery, leadership",
+    "reversed_meaning": "Rigidity, abuse of power",
+    "scene": "a king seated on a throne carved with lions and salamanders, wand in hand, commanding presence",
+    "image_file": "king-of-wands.png"
+  }
+]
