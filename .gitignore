@@ -5,3 +5,4 @@ deleted/
 __pycache__/
 *.pyc
 assets/music/
+question_history.json

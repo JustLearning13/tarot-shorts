@@ -10,7 +10,7 @@ gemini_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 def text_to_speech(text, output_file):
     response = gemini_client.models.generate_content(
         model="gemini-3.1-flash-tts-preview",
-        contents=f"Say this in a brisk, natural pace, and natural conversational voice: {text}",
+        contents=f"Say this in a natural conversational voice with pauses as one would read tarot cards: {text}",
         config=types.GenerateContentConfig(
             response_modalities=["AUDIO"],
             speech_config=types.SpeechConfig(
@@ -21,7 +21,6 @@ def text_to_speech(text, output_file):
         )
     )
 
-    print("FINISH REASON:", response.candidates[0].finish_reason)  # DEBUG
 
     audio_data = response.candidates[0].content.parts[0].inline_data.data
     
