@@ -24,6 +24,8 @@ if "viewer_intro" not in st.session_state:
     st.session_state.viewer_intro = None
 if "card" not in st.session_state:
     st.session_state.card = None
+if "closing_echo" not in st.session_state:
+    st.session_state.closing_echo = None
 
 # --- SECTION 1: Question ---
 st.header("1. Question")
@@ -34,6 +36,7 @@ if st.button("Ask agent to generate a question"):
     st.session_state.question = result["question"]
     st.session_state.viewer_intro = result["viewer_intro"]
     st.session_state.reasoning = result["reasoning"]
+    st.session_state.closing_echo = result["closing_echo"]
 
 st.session_state.question = st.text_area(
     "Question (edit the agent's suggestion, or type your own):",
@@ -46,6 +49,11 @@ if st.session_state.question:
         "Viewer intro (editable):",
         value=st.session_state.viewer_intro or "",
         height=80
+    )
+    st.session_state.closing_echo = st.text_area(
+        "Closing line (editable):",
+        value=st.session_state.closing_echo or "",
+        height=60
     )
     if st.session_state.reasoning:
         with st.expander("Why the agent chose this"):
@@ -140,6 +148,7 @@ if st.session_state.reading:
         narration_en = build_narration_script(
             st.session_state.question,
             st.session_state.viewer_intro,
+            st.session_state.closing_echo,
             st.session_state.card,
             st.session_state.reading
         )
@@ -173,7 +182,7 @@ if st.session_state.narration:
         audio_path = f"output/{timestamp}_{card_slug}.wav"
 
         with st.spinner("Generating audio..."):
-            text_to_speech(st.session_state.narration, audio_path)
+            text_to_speech(st.session_state.narration, audio_path, st.session_state.language)
 
         st.session_state.audio_file = audio_path
         st.session_state.video_file = None  # reset, since audio changed

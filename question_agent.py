@@ -29,16 +29,32 @@ tools = [{
         "type": "object",
         "properties": {
             "question": {"type": "string"},
+            "viewer_intro": {...},  # existing
+            "closing_echo": {
+                "type": "string",
+                "description": (
+                    "A short closing line (under 12 words), spoken right before "
+                    "the outro CTA, that directly answers or echoes the opening "
+                    "viewer_intro line — creates a loop so the ending calls back "
+                    "to the beginning."
+                )
+            },
             "reasoning": {
                 "type": "string",
                 "description": "Analytical explanation for the creator: why this question works (audience psychology, engagement, format fit)."
             },
             "viewer_intro": {
                 "type": "string",
-                "description": "A short, mystical-toned line (1-2 sentences) to be spoken aloud in the video, framing why this question matters right now. Same voice as a tarot reader, not an analyst."
+                "description": (
+                    "The FIRST LINE spoken in the video — this is a scroll-stopping "
+                    "hook, not a gentle intro. It must be under 8 words, create genuine "
+                    "curiosity or tension in the first 2 seconds, and only then can the "
+                    "mystical tone follow in what comes after. Bad: 'Take a breath with "
+                    "me, love.' Good: 'You already know what you're avoiding.'"
+                )
             }
         },
-        "required": ["question", "viewer_intro"]
+        "required": ["question", "viewer_intro", "closing_echo"]
     }
 }]
 
@@ -71,7 +87,8 @@ def decide_question():
     return {
         "question": question,
         "viewer_intro": tool_call.input["viewer_intro"],
-        "reasoning": tool_call.input.get("reasoning", "")
+        "reasoning": tool_call.input.get("reasoning", ""),
+        "closing_echo": tool_call.input["closing_echo"]
     }   
 
 if __name__ == "__main__":
